@@ -150,7 +150,7 @@ textarea {
   }
 
   .txtb{
-    margin: 15px 0;
+    margin: 20px 0;
   }
 
   .txtb span::before {
@@ -187,6 +187,7 @@ textarea {
 
   .txtb {
     font-size: 8px;
+    margin: 15px 0;
   }
 
   .txtb span::before {
