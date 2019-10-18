@@ -1,3 +1,4 @@
+var maxBrojPitanja = 7;
 
 window.onload = function() {
   document.getElementById('forma').style.opacity = 1;
@@ -15,5 +16,13 @@ form.addEventListener('submit', e => {
     .catch(error => console.error('Error!', error.message));
   send();
 });
+
+
+
+/* Sakrivanje forme i prikaz poruke nakon submitovanja */
+function send() {
+  document.getElementById('forma').style.display = 'none';
+  document.getElementById('poruka').style.display = 'block';
+}
 
 
