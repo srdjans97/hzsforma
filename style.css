@@ -169,6 +169,7 @@ textarea {
   .bottom-text p {
     margin-top: 40px;
 }
+}
 
 @media (max-width: 550px) {
   #forma {
@@ -212,6 +213,7 @@ textarea {
   }
   .bottom-text p {
     margin-top: 25px;
+  }
 }
 
 #poruka {
